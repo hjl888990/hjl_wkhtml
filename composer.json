@@ -1,0 +1,36 @@
+{
+  "name": "hjl/hjl_wkhtml",
+  "type": "library",
+  "description": "hjl wkhtml services of composer project!",
+  "keywords": [
+    "hjl",
+    "wkhtmlpdf",
+    "wkhtmlimg",
+    "pdf"
+  ],
+  "homepage": "https://github.com/hjl888990/hjl_wkhtml",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "hjl",
+      "email": "1195601363@qq.com",
+      "homepage": "https://github.com/hjl888990",
+      "role": "Owner"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "phpoffice/phpspreadsheet": "*"
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Export\\": "Mkhtml/"
+    }
+  }
+}

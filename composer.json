@@ -20,7 +20,7 @@
   ],
   "require": {
     "php": ">=5.5.0",
-    "zordius/lightncandy": "dev-master"
+    "zordius/lightncandy": "v1.2.5"
   },
   "repositories": {
     "packagist": {

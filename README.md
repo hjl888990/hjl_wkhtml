@@ -18,10 +18,17 @@ make test
 sudo make install
 
 Add the extension to your php.ini:
+
 echo extension=handlebars.so | tee -a /path/to/your/php.ini
+
 Finally, restart the web server.
 
+
 Usage
+
 $vm = new Handlebars\VM();
+
 echo $vm->render('{{foo}}', array('foo' => 'bar'));
+
 echo $vm->renderFile('/path/to/foo.hbs', array('foo' => 'bar'));
+
